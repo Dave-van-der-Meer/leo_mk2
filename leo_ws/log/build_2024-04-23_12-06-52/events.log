@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.001256] (-) JobUnselected: {'identifier': 'docker_messages'}
+[0.001636] (-) JobUnselected: {'identifier': 'leo'}
+[0.001932] (-) JobUnselected: {'identifier': 'leo_description'}
+[0.002042] (-) JobUnselected: {'identifier': 'leo_msgs'}
+[0.002223] (-) JobUnselected: {'identifier': 'leo_teleop'}
+[0.002347] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002488] (-) JobUnselected: {'identifier': 'rtabmap_livox'}
+[0.002543] (docker_stats) JobQueued: {'identifier': 'docker_stats', 'dependencies': OrderedDict([('docker_messages', '/home/spacer/leo_ws/install/docker_messages')])}
+[0.002635] (docker_stats) JobStarted: {'identifier': 'docker_stats'}
+[0.014751] (docker_stats) JobEnded: {'identifier': 'docker_stats', 'rc': 1}
+[0.025354] (-) EventReactorShutdown: {}

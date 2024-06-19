@@ -1,0 +1,4 @@
+source;share/docker_messages/environment/ament_prefix_path.sh
+source;share/docker_messages/environment/library_path.sh
+source;share/docker_messages/environment/path.sh
+source;share/docker_messages/environment/pythonpath.sh

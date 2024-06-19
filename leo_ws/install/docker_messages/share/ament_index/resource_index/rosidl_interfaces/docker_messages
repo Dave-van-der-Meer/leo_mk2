@@ -1,0 +1,4 @@
+msg/DockerStatistics.idl
+msg/DockerStatistics.msg
+msg/DockerStatisticsArray.idl
+msg/DockerStatisticsArray.msg

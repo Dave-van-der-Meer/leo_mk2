@@ -1,0 +1,404 @@
+[0.000000] (-) TimerEvent: {}
+[0.000648] (-) JobUnselected: {'identifier': 'docker_stats'}
+[0.001073] (-) JobUnselected: {'identifier': 'leo'}
+[0.001726] (-) JobUnselected: {'identifier': 'leo_description'}
+[0.002136] (-) JobUnselected: {'identifier': 'leo_msgs'}
+[0.002480] (-) JobUnselected: {'identifier': 'leo_teleop'}
+[0.002547] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002593] (-) JobUnselected: {'identifier': 'rtabmap_livox'}
+[0.002704] (docker_messages) JobQueued: {'identifier': 'docker_messages', 'dependencies': OrderedDict()}
+[0.002975] (docker_messages) JobStarted: {'identifier': 'docker_messages'}
+[0.025368] (docker_messages) JobProgress: {'identifier': 'docker_messages', 'progress': 'cmake'}
+[0.026098] (docker_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/spacer/leo_ws/src/docker_messages', '-DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/docker_messages'], 'cwd': '/home/spacer/leo_ws/build/docker_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spacer'), ('SSH_CLIENT', '10.42.0.212 36664 22'), ('LC_TIME', 'de_LU.UTF-8'), ('ROS_NAMESPACE', 'leo05'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/spacer'), ('OLDPWD', '/home/spacer/leo_ws/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_LU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'spacer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_LU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_LU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_LU.UTF-8'), ('ROS_MASTER_URI', 'http://master:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_LU.UTF-8'), ('LC_IDENTIFICATION', 'de_LU.UTF-8'), ('PWD', '/home/spacer/leo_ws/build/docker_messages'), ('ROS_IPV6', 'on'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.212 36664 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'master'), ('LC_NUMERIC', 'de_LU.UTF-8'), ('LC_PAPER', 'de_LU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099250] (-) TimerEvent: {}
+[0.200116] (-) TimerEvent: {}
+[0.209591] (docker_messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300285] (-) TimerEvent: {}
+[0.352121] (docker_messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.368358] (docker_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400417] (-) TimerEvent: {}
+[0.501102] (-) TimerEvent: {}
+[0.513983] (docker_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.516923] (docker_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601311] (-) TimerEvent: {}
+[0.660001] (docker_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.692814] (docker_messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.693652] (docker_messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.699924] (docker_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.701373] (-) TimerEvent: {}
+[0.801973] (-) TimerEvent: {}
+[0.854685] (docker_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.858507] (docker_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902134] (-) TimerEvent: {}
+[1.002799] (-) TimerEvent: {}
+[1.023577] (docker_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.059544] (docker_messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.060808] (docker_messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.068076] (docker_messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102918] (-) TimerEvent: {}
+[1.203505] (-) TimerEvent: {}
+[1.304288] (-) TimerEvent: {}
+[1.376431] (docker_messages) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter \n'}
+[1.404389] (-) TimerEvent: {}
+[1.505012] (-) TimerEvent: {}
+[1.581435] (docker_messages) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.605120] (-) TimerEvent: {}
+[1.664748] (docker_messages) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.676098] (docker_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.697047] (docker_messages) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.705227] (-) TimerEvent: {}
+[1.731893] (docker_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.779802] (docker_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.805350] (-) TimerEvent: {}
+[1.905974] (-) TimerEvent: {}
+[1.916232] (docker_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.006145] (-) TimerEvent: {}
+[2.106820] (-) TimerEvent: {}
+[2.207520] (-) TimerEvent: {}
+[2.308235] (-) TimerEvent: {}
+[2.408856] (-) TimerEvent: {}
+[2.509528] (-) TimerEvent: {}
+[2.610269] (-) TimerEvent: {}
+[2.711027] (-) TimerEvent: {}
+[2.811885] (-) TimerEvent: {}
+[2.877539] (docker_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.911991] (-) TimerEvent: {}
+[3.012819] (-) TimerEvent: {}
+[3.113598] (-) TimerEvent: {}
+[3.214491] (-) TimerEvent: {}
+[3.315494] (-) TimerEvent: {}
+[3.416266] (-) TimerEvent: {}
+[3.517035] (-) TimerEvent: {}
+[3.617844] (-) TimerEvent: {}
+[3.718638] (-) TimerEvent: {}
+[3.819453] (-) TimerEvent: {}
+[3.920224] (-) TimerEvent: {}
+[4.021243] (-) TimerEvent: {}
+[4.122065] (-) TimerEvent: {}
+[4.222914] (-) TimerEvent: {}
+[4.323600] (-) TimerEvent: {}
+[4.340888] (docker_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.423776] (-) TimerEvent: {}
+[4.524441] (-) TimerEvent: {}
+[4.625112] (-) TimerEvent: {}
+[4.725882] (-) TimerEvent: {}
+[4.826577] (-) TimerEvent: {}
+[4.927360] (-) TimerEvent: {}
+[4.952934] (docker_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.001850] (docker_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[5.008086] (docker_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.027522] (-) TimerEvent: {}
+[5.073413] (docker_messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.074196] (docker_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.074517] (docker_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.074800] (docker_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[5.118284] (docker_messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.127627] (-) TimerEvent: {}
+[5.228284] (-) TimerEvent: {}
+[5.260388] (docker_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.304527] (docker_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.307162] (docker_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.318323] (docker_messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.328426] (-) TimerEvent: {}
+[5.389843] (docker_messages) StdoutLine: {'line': b'-- Generating done\n'}
+[5.395519] (docker_messages) StdoutLine: {'line': b'-- Build files have been written to: /home/spacer/leo_ws/build/docker_messages\n'}
+[5.411304] (docker_messages) CommandEnded: {'returncode': 0}
+[5.413352] (docker_messages) JobProgress: {'identifier': 'docker_messages', 'progress': 'build'}
+[5.415923] (docker_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/spacer/leo_ws/build/docker_messages', '--', '-j6', '-l6'], 'cwd': '/home/spacer/leo_ws/build/docker_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spacer'), ('SSH_CLIENT', '10.42.0.212 36664 22'), ('LC_TIME', 'de_LU.UTF-8'), ('ROS_NAMESPACE', 'leo05'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/spacer'), ('OLDPWD', '/home/spacer/leo_ws/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_LU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'spacer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_LU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_LU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_LU.UTF-8'), ('ROS_MASTER_URI', 'http://master:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_LU.UTF-8'), ('LC_IDENTIFICATION', 'de_LU.UTF-8'), ('PWD', '/home/spacer/leo_ws/build/docker_messages'), ('ROS_IPV6', 'on'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.212 36664 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'master'), ('LC_NUMERIC', 'de_LU.UTF-8'), ('LC_PAPER', 'de_LU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.428573] (-) TimerEvent: {}
+[5.511143] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_copy_docker_messages\x1b[0m\n'}
+[5.511678] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__cpp\x1b[0m\n'}
+[5.512987] (docker_messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.528827] (-) TimerEvent: {}
+[5.533195] (docker_messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.553718] (docker_messages) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_docker_messages\n'}
+[5.576037] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ament_cmake_python_build_docker_messages_egg\x1b[0m\n'}
+[5.629006] (-) TimerEvent: {}
+[5.729708] (-) TimerEvent: {}
+[5.830443] (-) TimerEvent: {}
+[5.931118] (-) TimerEvent: {}
+[6.031785] (-) TimerEvent: {}
+[6.132474] (-) TimerEvent: {}
+[6.182913] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_generator_c\x1b[0m\n'}
+[6.215658] (docker_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_c.dir/rosidl_generator_c/docker_messages/msg/detail/docker_statistics__functions.c.o\x1b[0m\n'}
+[6.216719] (docker_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_c.dir/rosidl_generator_c/docker_messages/msg/detail/docker_statistics_array__functions.c.o\x1b[0m\n'}
+[6.232630] (-) TimerEvent: {}
+[6.287345] (docker_messages) StdoutLine: {'line': b'running egg_info\n'}
+[6.288565] (docker_messages) StdoutLine: {'line': b'creating docker_messages.egg-info\n'}
+[6.289160] (docker_messages) StdoutLine: {'line': b'writing docker_messages.egg-info/PKG-INFO\n'}
+[6.289525] (docker_messages) StdoutLine: {'line': b'writing dependency_links to docker_messages.egg-info/dependency_links.txt\n'}
+[6.290013] (docker_messages) StdoutLine: {'line': b'writing top-level names to docker_messages.egg-info/top_level.txt\n'}
+[6.301746] (docker_messages) StdoutLine: {'line': b"writing manifest file 'docker_messages.egg-info/SOURCES.txt'\n"}
+[6.332861] (-) TimerEvent: {}
+[6.339407] (docker_messages) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libdocker_messages__rosidl_generator_c.so\x1b[0m\n'}
+[6.358933] (docker_messages) StdoutLine: {'line': b'[ 12%] Built target docker_messages__cpp\n'}
+[6.381122] (docker_messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.381656] (docker_messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.391430] (docker_messages) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.416943] (docker_messages) StdoutLine: {'line': b"reading manifest file 'docker_messages.egg-info/SOURCES.txt'\n"}
+[6.418634] (docker_messages) StdoutLine: {'line': b"writing manifest file 'docker_messages.egg-info/SOURCES.txt'\n"}
+[6.422774] (docker_messages) StdoutLine: {'line': b'[ 20%] Built target docker_messages__rosidl_generator_c\n'}
+[6.433117] (-) TimerEvent: {}
+[6.450115] (docker_messages) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.455202] (docker_messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.509795] (docker_messages) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_docker_messages_egg\n'}
+[6.533293] (-) TimerEvent: {}
+[6.543566] (docker_messages) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.633503] (-) TimerEvent: {}
+[6.734372] (-) TimerEvent: {}
+[6.835499] (-) TimerEvent: {}
+[6.936167] (-) TimerEvent: {}
+[6.964342] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.997107] (docker_messages) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/docker_messages/msg/docker_statistics__type_support.cpp.o\x1b[0m\n'}
+[7.036452] (-) TimerEvent: {}
+[7.073399] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.117424] (docker_messages) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/docker_messages/msg/detail/docker_statistics__type_support.cpp.o\x1b[0m\n'}
+[7.136761] (-) TimerEvent: {}
+[7.137575] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.180754] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_c\x1b[0m\n'}
+[7.196273] (docker_messages) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/docker_messages/msg/detail/docker_statistics__type_support.c.o\x1b[0m\n'}
+[7.211138] (docker_messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/docker_messages/msg/docker_statistics__type_support.cpp.o\x1b[0m\n'}
+[7.236966] (-) TimerEvent: {}
+[7.266386] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.286526] (docker_messages) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/docker_messages/msg/detail/docker_statistics_array__type_support.c.o\x1b[0m\n'}
+[7.298417] (docker_messages) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/docker_messages/msg/docker_statistics_array__type_support.cpp.o\x1b[0m\n'}
+[7.299435] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.308137] (docker_messages) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/docker_messages/msg/detail/docker_statistics__type_support_c.cpp.o\x1b[0m\n'}
+[7.337171] (-) TimerEvent: {}
+[7.343501] (docker_messages) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/docker_messages/msg/detail/dds_fastrtps/docker_statistics__type_support.cpp.o\x1b[0m\n'}
+[7.384538] (docker_messages) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.390463] (docker_messages) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libdocker_messages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.437360] (-) TimerEvent: {}
+[7.471562] (docker_messages) StdoutLine: {'line': b'[ 53%] Built target docker_messages__rosidl_typesupport_introspection_c\n'}
+[7.472214] (docker_messages) StdoutLine: {'line': b'[ 53%] Built target docker_messages__rosidl_typesupport_c\n'}
+[7.496118] (docker_messages) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/docker_messages/msg/docker_statistics_array__type_support.cpp.o\x1b[0m\n'}
+[7.498631] (docker_messages) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/docker_messages/msg/detail/docker_statistics_array__type_support_c.cpp.o\x1b[0m\n'}
+[7.537556] (-) TimerEvent: {}
+[7.638428] (-) TimerEvent: {}
+[7.739337] (-) TimerEvent: {}
+[7.760805] (docker_messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/docker_messages/msg/detail/dds_fastrtps/docker_statistics_array__type_support.cpp.o\x1b[0m\n'}
+[7.839543] (-) TimerEvent: {}
+[7.940655] (-) TimerEvent: {}
+[8.041715] (-) TimerEvent: {}
+[8.128452] (docker_messages) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/docker_messages/msg/detail/docker_statistics_array__type_support.cpp.o\x1b[0m\n'}
+[8.142174] (-) TimerEvent: {}
+[8.161366] (docker_messages) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.242307] (-) TimerEvent: {}
+[8.250108] (docker_messages) StdoutLine: {'line': b'[ 66%] Built target docker_messages__rosidl_typesupport_cpp\n'}
+[8.342484] (-) TimerEvent: {}
+[8.395933] (docker_messages) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.442665] (-) TimerEvent: {}
+[8.543387] (-) TimerEvent: {}
+[8.544379] (docker_messages) StdoutLine: {'line': b'[ 69%] Built target docker_messages__rosidl_typesupport_fastrtps_c\n'}
+[8.643568] (-) TimerEvent: {}
+[8.744261] (-) TimerEvent: {}
+[8.844926] (-) TimerEvent: {}
+[8.926719] (docker_messages) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.945107] (-) TimerEvent: {}
+[9.045859] (-) TimerEvent: {}
+[9.067299] (docker_messages) StdoutLine: {'line': b'[ 71%] Built target docker_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[9.145979] (-) TimerEvent: {}
+[9.215800] (docker_messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.246152] (-) TimerEvent: {}
+[9.346815] (-) TimerEvent: {}
+[9.349408] (docker_messages) StdoutLine: {'line': b'[ 74%] Built target docker_messages__rosidl_typesupport_introspection_cpp\n'}
+[9.372059] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages\x1b[0m\n'}
+[9.393755] (docker_messages) StdoutLine: {'line': b'[ 74%] Built target docker_messages\n'}
+[9.414483] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__py\x1b[0m\n'}
+[9.437192] (docker_messages) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.446906] (-) TimerEvent: {}
+[9.547446] (-) TimerEvent: {}
+[9.648015] (-) TimerEvent: {}
+[9.748613] (-) TimerEvent: {}
+[9.849182] (-) TimerEvent: {}
+[9.949735] (-) TimerEvent: {}
+[10.050308] (-) TimerEvent: {}
+[10.150832] (-) TimerEvent: {}
+[10.251401] (-) TimerEvent: {}
+[10.315743] (docker_messages) StdoutLine: {'line': b'[ 76%] Built target docker_messages__py\n'}
+[10.340779] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_generator_py\x1b[0m\n'}
+[10.351506] (-) TimerEvent: {}
+[10.395693] (docker_messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_py.dir/rosidl_generator_py/docker_messages/msg/_docker_statistics_array_s.c.o\x1b[0m\n'}
+[10.396437] (docker_messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_py.dir/rosidl_generator_py/docker_messages/msg/_docker_statistics_s.c.o\x1b[0m\n'}
+[10.451756] (-) TimerEvent: {}
+[10.552580] (-) TimerEvent: {}
+[10.605100] (docker_messages) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/docker_messages/libdocker_messages__rosidl_generator_py.so\x1b[0m\n'}
+[10.652769] (-) TimerEvent: {}
+[10.684419] (docker_messages) StdoutLine: {'line': b'[ 84%] Built target docker_messages__rosidl_generator_py\n'}
+[10.705789] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.706320] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.706909] (docker_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target docker_messages__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.749182] (docker_messages) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/docker_messages/_docker_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.749715] (docker_messages) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/docker_messages/_docker_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.751146] (docker_messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/docker_messages/_docker_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.752881] (-) TimerEvent: {}
+[10.853454] (-) TimerEvent: {}
+[10.938796] (docker_messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.939309] (docker_messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[10.953639] (-) TimerEvent: {}
+[10.979808] (docker_messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[11.017150] (docker_messages) StdoutLine: {'line': b'[100%] Built target docker_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.017744] (docker_messages) StdoutLine: {'line': b'[100%] Built target docker_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[11.053812] (-) TimerEvent: {}
+[11.060092] (docker_messages) StdoutLine: {'line': b'[100%] Built target docker_messages__rosidl_typesupport_c__pyext\n'}
+[11.087682] (docker_messages) CommandEnded: {'returncode': 0}
+[11.154048] (-) TimerEvent: {}
+[11.208065] (docker_messages) JobProgress: {'identifier': 'docker_messages', 'progress': 'install'}
+[11.235097] (docker_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/spacer/leo_ws/build/docker_messages'], 'cwd': '/home/spacer/leo_ws/build/docker_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spacer'), ('SSH_CLIENT', '10.42.0.212 36664 22'), ('LC_TIME', 'de_LU.UTF-8'), ('ROS_NAMESPACE', 'leo05'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.4/lib64::/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/spacer'), ('OLDPWD', '/home/spacer/leo_ws/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_LU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'spacer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_LU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_LU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_LU.UTF-8'), ('ROS_MASTER_URI', 'http://master:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_LU.UTF-8'), ('LC_IDENTIFICATION', 'de_LU.UTF-8'), ('PWD', '/home/spacer/leo_ws/build/docker_messages'), ('ROS_IPV6', 'on'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.212 36664 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'master'), ('LC_NUMERIC', 'de_LU.UTF-8'), ('LC_PAPER', 'de_LU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.254149] (-) TimerEvent: {}
+[11.257731] (docker_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.258204] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/ament_index/resource_index/rosidl_interfaces/docker_messages\n'}
+[11.258595] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages\n'}
+[11.258803] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg\n'}
+[11.258986] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics_array.h\n'}
+[11.259178] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail\n'}
+[11.259353] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__functions.c\n'}
+[11.259534] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__struct.h\n'}
+[11.259759] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__struct.h\n'}
+[11.259942] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__functions.c\n'}
+[11.260170] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__type_support.h\n'}
+[11.260367] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__functions.h\n'}
+[11.260594] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__functions.h\n'}
+[11.260804] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__type_support.h\n'}
+[11.261084] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics.h\n'}
+[11.261488] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.261801] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/library_path.sh\n'}
+[11.262101] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/library_path.dsv\n'}
+[11.262435] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_generator_c.so\n'}
+[11.263090] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_generator_c.so" to ""\n'}
+[11.263283] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages\n'}
+[11.263484] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg\n'}
+[11.263702] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.263910] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail\n'}
+[11.264045] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_fastrtps_c.h\n'}
+[11.264171] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_fastrtps_c.h\n'}
+[11.264395] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[11.264930] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.265152] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages\n'}
+[11.265327] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg\n'}
+[11.265540] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics.hpp\n'}
+[11.265668] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail\n'}
+[11.265837] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__builder.hpp\n'}
+[11.266057] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__traits.hpp\n'}
+[11.266207] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__struct.hpp\n'}
+[11.266428] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__struct.hpp\n'}
+[11.266569] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__builder.hpp\n'}
+[11.266794] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__traits.hpp\n'}
+[11.266925] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics_array.hpp\n'}
+[11.267108] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages\n'}
+[11.267317] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg\n'}
+[11.267513] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.267640] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail\n'}
+[11.267810] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.268111] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.268338] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/dds_fastrtps\n'}
+[11.268473] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.268970] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.269150] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages\n'}
+[11.269365] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg\n'}
+[11.269577] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.269713] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail\n'}
+[11.269883] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__type_support.c\n'}
+[11.270092] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__type_support.c\n'}
+[11.270263] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_introspection_c.h\n'}
+[11.270393] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_introspection_c.h\n'}
+[11.270618] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_c.so\n'}
+[11.271271] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.271455] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_c.so\n'}
+[11.272018] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_c.so" to ""\n'}
+[11.272195] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages\n'}
+[11.272420] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg\n'}
+[11.272546] (docker_messages) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail\n'}
+[11.272721] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__type_support.cpp\n'}
+[11.272896] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.273063] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.273218] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__type_support.cpp\n'}
+[11.273417] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[11.274626] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.274843] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_cpp.so\n'}
+[11.275410] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_cpp.so" to ""\n'}
+[11.275578] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/pythonpath.sh\n'}
+[11.275838] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/pythonpath.dsv\n'}
+[11.276204] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info\n'}
+[11.276731] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/PKG-INFO\n'}
+[11.277084] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/SOURCES.txt\n'}
+[11.277358] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/top_level.txt\n'}
+[11.277568] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/dependency_links.txt\n'}
+[11.277882] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages\n'}
+[11.278240] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/_docker_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.278453] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/libdocker_messages__rosidl_generator_py.so\n'}
+[11.278709] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.278980] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg\n'}
+[11.279173] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_array_s.c\n'}
+[11.279335] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_array.py\n'}
+[11.279599] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/__init__.py\n'}
+[11.279821] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_s.c\n'}
+[11.280027] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics.py\n'}
+[11.280259] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/__init__.py\n'}
+[11.280422] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/_docker_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.280563] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/_docker_messages_s.ep.rosidl_typesupport_c.c\n'}
+[11.280794] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.280941] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.354423] (-) TimerEvent: {}
+[11.357099] (docker_messages) StdoutLine: {'line': b"Listing '/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages'...\n"}
+[11.357697] (docker_messages) StdoutLine: {'line': b"Compiling '/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/__init__.py'...\n"}
+[11.358033] (docker_messages) StdoutLine: {'line': b"Listing '/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg'...\n"}
+[11.358215] (docker_messages) StdoutLine: {'line': b"Compiling '/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/__init__.py'...\n"}
+[11.358372] (docker_messages) StdoutLine: {'line': b"Compiling '/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics.py'...\n"}
+[11.358563] (docker_messages) StdoutLine: {'line': b"Compiling '/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_array.py'...\n"}
+[11.371328] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.372265] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.373029] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.374010] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.374779] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.375537] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[11.375896] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_generator_py.so\n'}
+[11.376448] (docker_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/spacer/leo_ws/install/docker_messages/lib/libdocker_messages__rosidl_generator_py.so" to ""\n'}
+[11.376749] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/msg/DockerStatistics.idl\n'}
+[11.377001] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/msg/DockerStatisticsArray.idl\n'}
+[11.377236] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/msg/DockerStatistics.msg\n'}
+[11.377456] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/msg/DockerStatisticsArray.msg\n'}
+[11.377942] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/ament_index/resource_index/package_run_dependencies/docker_messages\n'}
+[11.378303] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/ament_index/resource_index/parent_prefix_path/docker_messages\n'}
+[11.378622] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/ament_prefix_path.sh\n'}
+[11.378945] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/ament_prefix_path.dsv\n'}
+[11.379247] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/path.sh\n'}
+[11.379490] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/environment/path.dsv\n'}
+[11.379780] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/local_setup.bash\n'}
+[11.380047] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/local_setup.sh\n'}
+[11.380294] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/local_setup.zsh\n'}
+[11.380533] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/local_setup.dsv\n'}
+[11.380840] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/package.dsv\n'}
+[11.381167] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/ament_index/resource_index/packages/docker_messages\n'}
+[11.381602] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_cExport.cmake\n'}
+[11.381920] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.382337] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.382643] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.383034] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_cppExport.cmake\n'}
+[11.383426] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.383729] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.384120] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.384470] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.384801] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cExport.cmake\n'}
+[11.385105] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.385492] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.385809] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.386231] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cppExport.cmake\n'}
+[11.386562] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.386926] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_pyExport.cmake\n'}
+[11.387234] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.387571] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[11.387879] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.388239] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.388757] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.389110] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.389448] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.389806] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.390200] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messagesConfig.cmake\n'}
+[11.390468] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/cmake/docker_messagesConfig-version.cmake\n'}
+[11.390718] (docker_messages) StdoutLine: {'line': b'-- Installing: /home/spacer/leo_ws/install/docker_messages/share/docker_messages/package.xml\n'}
+[11.395147] (docker_messages) CommandEnded: {'returncode': 0}
+[11.454607] (-) TimerEvent: {}
+[11.555287] (-) TimerEvent: {}
+[11.581718] (docker_messages) JobEnded: {'identifier': 'docker_messages', 'rc': 0}
+[11.584285] (-) EventReactorShutdown: {}

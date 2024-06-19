@@ -1,0 +1,6 @@
+Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake /home/spacer/sensor_ws/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/spacer/sensor_ws/install/livox_sdk2
+Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake /home/spacer/sensor_ws/Livox-SDK2 -DCMAKE_INSTALL_PREFIX=/home/spacer/sensor_ws/install/livox_sdk2
+Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_sdk2 -- -j6 -l6
+Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_sdk2 -- -j6 -l6
+Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_sdk2
+Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_sdk2

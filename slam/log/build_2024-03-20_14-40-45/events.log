@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000698] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.001795] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.017477] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.019359] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[0.020814] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/spacer/slam/build/fast_lio', '--', '-j6', '-l6'], 'cwd': '/home/spacer/slam/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spacer'), ('SSH_CLIENT', '10.42.0.212 41590 22'), ('LC_TIME', 'de_LU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64::/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/spacer'), ('OLDPWD', '/home/spacer/slam/src'), ('SSH_TTY', '/dev/pts/3'), ('LC_MONETARY', 'de_LU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'spacer'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/spacer/fastrtps-profile.xml'), ('LC_ADDRESS', 'de_LU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_LU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_LU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_LU.UTF-8'), ('LC_IDENTIFICATION', 'de_LU.UTF-8'), ('PWD', '/home/spacer/slam/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.212 41590 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_LU.UTF-8'), ('LC_PAPER', 'de_LU.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.099483] (-) TimerEvent: {}
+[0.140229] (fast_lio) StdoutLine: {'line': b'[  8%] Built target fast_lio__rosidl_generator_c\n'}
+[0.141525] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target fast_lio__cpp\n'}
+[0.157946] (fast_lio) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_fast_lio\n'}
+[0.184241] (fast_lio) StdoutLine: {'line': b'[ 25%] Built target fast_lio__rosidl_typesupport_c\n'}
+[0.184784] (fast_lio) StdoutLine: {'line': b'[ 28%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[0.189043] (fast_lio) StdoutLine: {'line': b'[ 37%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[0.199632] (-) TimerEvent: {}
+[0.203885] (fast_lio) StdoutLine: {'line': b'[ 45%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[0.205112] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[0.208776] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[0.256040] (fast_lio) StdoutLine: {'line': b'[ 62%] Built target fast_lio\n'}
+[0.289663] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fastlio_mapping\n'}
+[0.299789] (-) TimerEvent: {}
+[0.306955] (fast_lio) StdoutLine: {'line': b'[ 77%] Built target fast_lio__py\n'}
+[0.360165] (fast_lio) StdoutLine: {'line': b'[ 82%] Built target fast_lio__rosidl_generator_py\n'}
+[0.400018] (-) TimerEvent: {}
+[0.412787] (fast_lio) StdoutLine: {'line': b'[100%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.413303] (fast_lio) StdoutLine: {'line': b'[100%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[0.413477] (fast_lio) StdoutLine: {'line': b'[100%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[0.500203] (-) TimerEvent: {}
+[0.600946] (-) TimerEvent: {}
+[0.701503] (-) TimerEvent: {}
+[0.785809] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[0.787296] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[0.787881] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[0.788268] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[0.801595] (-) TimerEvent: {}
+[0.895534] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.896628] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[0.901755] (-) TimerEvent: {}
+[0.965016] (fast_lio) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[0.990726] (fast_lio) CommandEnded: {'returncode': 0}
+[1.001907] (-) TimerEvent: {}
+[1.090994] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[1.102119] (-) TimerEvent: {}
+[1.115490] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/spacer/slam/build/fast_lio'], 'cwd': '/home/spacer/slam/build/fast_lio', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spacer'), ('SSH_CLIENT', '10.42.0.212 41590 22'), ('LC_TIME', 'de_LU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64::/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/spacer'), ('OLDPWD', '/home/spacer/slam/src'), ('SSH_TTY', '/dev/pts/3'), ('LC_MONETARY', 'de_LU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LOGNAME', 'spacer'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('PATH', '/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/spacer/fastrtps-profile.xml'), ('LC_ADDRESS', 'de_LU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_LU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_LU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_LU.UTF-8'), ('LC_IDENTIFICATION', 'de_LU.UTF-8'), ('PWD', '/home/spacer/slam/build/fast_lio'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.42.0.212 41590 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_LU.UTF-8'), ('LC_PAPER', 'de_LU.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[1.138578] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[1.139578] (fast_lio) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.140222] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[1.141269] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[1.141605] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[1.141943] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[1.142278] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[1.142606] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.143118] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[1.143578] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[1.144773] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.145102] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.146022] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[1.146354] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[1.146682] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[1.147004] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[1.148061] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.148391] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.149285] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[1.149607] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.150439] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.150929] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[1.151377] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[1.152316] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio-0.0.0-py3.9.egg-info/PKG-INFO\n'}
+[1.152892] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio-0.0.0-py3.9.egg-info/SOURCES.txt\n'}
+[1.153338] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio-0.0.0-py3.9.egg-info/dependency_links.txt\n'}
+[1.153709] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio-0.0.0-py3.9.egg-info/top_level.txt\n'}
+[1.154851] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/__init__.py\n'}
+[1.155198] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[1.155481] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.155752] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.156060] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.156370] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.156704] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.157010] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[1.157326] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/msg/__init__.py\n'}
+[1.157638] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/msg/_pose6_d.py\n'}
+[1.157947] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[1.158675] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.159385] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.160059] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.160581] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[1.161039] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[1.161683] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[1.162519] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[1.162824] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[1.163123] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[1.163412] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[1.163835] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[1.164342] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[1.164678] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[1.165307] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[1.165767] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[1.166238] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[1.166726] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[1.167169] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[1.167694] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[1.168103] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[1.168604] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[1.169048] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[1.169453] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[1.169859] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[1.170287] (fast_lio) StdoutLine: {'line': b'-- Symlinking: /home/spacer/slam/install/fast_lio/share/fast_lio/package.dsv\n'}
+[1.188804] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[1.189244] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[1.189651] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.190036] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.190464] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.190902] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.191372] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.191810] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.192220] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[1.192533] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[1.192972] (fast_lio) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spacer/slam/install/fast_lio/share/fast_lio/package.xml\n'}
+[1.193465] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[1.194154] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[1.194753] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.195345] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[1.195938] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[1.196545] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[1.197147] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[1.202154] (-) TimerEvent: {}
+[1.266026] (fast_lio) StdoutLine: {'line': b"Listing '/home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio'...\n"}
+[1.266513] (fast_lio) StdoutLine: {'line': b"Listing '/home/spacer/slam/install/fast_lio/lib/python3.9/site-packages/fast_lio/msg'...\n"}
+[1.278699] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[1.279228] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[1.279556] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[1.279846] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.280243] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.280406] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[1.280623] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.280801] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.280995] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.281167] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.281494] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[1.281737] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[1.281956] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.282173] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.282391] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[1.282559] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.282736] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[1.282909] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/spacer/slam/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[1.288175] (fast_lio) CommandEnded: {'returncode': 0}
+[1.302356] (-) TimerEvent: {}
+[1.404427] (-) TimerEvent: {}
+[1.450083] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[1.452645] (-) EventReactorShutdown: {}

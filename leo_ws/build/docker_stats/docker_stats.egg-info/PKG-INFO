@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: docker-stats
+Version: 0.0.0
+Summary: ROS2 Package to monitor resources for docker containers and publish for foxglove visualization
+Home-page: UNKNOWN
+Maintainer: alexandre.frantz
+Maintainer-email: alexandre.frantz@uni.lu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

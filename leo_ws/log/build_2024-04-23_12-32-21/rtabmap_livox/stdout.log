@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/rtabmap_livox/rtabmap_livox.egg-info/PKG-INFO
+writing dependency_links to ../../build/rtabmap_livox/rtabmap_livox.egg-info/dependency_links.txt
+writing entry points to ../../build/rtabmap_livox/rtabmap_livox.egg-info/entry_points.txt
+writing requirements to ../../build/rtabmap_livox/rtabmap_livox.egg-info/requires.txt
+writing top-level names to ../../build/rtabmap_livox/rtabmap_livox.egg-info/top_level.txt
+reading manifest file '../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+writing manifest file '../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/rtabmap_livox.launch.py -> /home/spacer/leo_ws/install/rtabmap_livox/share/rtabmap_livox/launch
+running install_egg_info
+removing '/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap_livox-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/rtabmap_livox/rtabmap_livox.egg-info to /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap_livox-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/spacer/leo_ws/build/rtabmap_livox/install.log'

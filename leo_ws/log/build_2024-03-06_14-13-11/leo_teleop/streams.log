@@ -1,0 +1,50 @@
+[1.554s] Invoking command in '/home/spacer/leo_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/spacer/leo_ws/src/leo_common-ros2/leo_teleop -DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/leo_teleop
+[1.663s] -- The C compiler identification is GNU 9.4.0
+[1.766s] -- The CXX compiler identification is GNU 9.4.0
+[1.775s] -- Check for working C compiler: /usr/bin/cc
+[1.912s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.913s] -- Detecting C compiler ABI info
+[2.053s] -- Detecting C compiler ABI info - done
+[2.076s] -- Detecting C compile features
+[2.076s] -- Detecting C compile features - done
+[2.081s] -- Check for working CXX compiler: /usr/bin/c++
+[2.235s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.237s] -- Detecting CXX compiler ABI info
+[2.395s] -- Detecting CXX compiler ABI info - done
+[2.414s] -- Detecting CXX compile features
+[2.415s] -- Detecting CXX compile features - done
+[2.420s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.893s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.028s] -- Added test 'lint_cmake' to check CMake code style
+[3.029s] -- Added test 'xmllint' to check XML markup files
+[3.039s] -- Configuring done
+[3.039s] -- Generating done
+[3.040s] -- Build files have been written to: /home/spacer/leo_ws/build/leo_teleop
+[3.048s] Invoked command in '/home/spacer/leo_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/spacer/leo_ws/src/leo_common-ros2/leo_teleop -DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/leo_teleop
+[3.054s] Invoking command in '/home/spacer/leo_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/spacer/leo_ws/build/leo_teleop -- -j6 -l6
+[3.141s] Invoked command in '/home/spacer/leo_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/spacer/leo_ws/build/leo_teleop -- -j6 -l6
+[3.203s] Invoking command in '/home/spacer/leo_ws/build/leo_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/spacer/leo_ws/build/leo_teleop
+[3.222s] -- Install configuration: ""
+[3.223s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/config
+[3.223s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/config/joy_config.yaml
+[3.223s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/launch
+[3.223s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/launch/key_teleop.launch.xml
+[3.223s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/launch/joy_teleop.launch.xml
+[3.224s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/ament_index/resource_index/package_run_dependencies/leo_teleop
+[3.224s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/ament_index/resource_index/parent_prefix_path/leo_teleop
+[3.225s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.sh
+[3.225s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/environment/ament_prefix_path.dsv
+[3.225s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/environment/path.sh
+[3.226s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/environment/path.dsv
+[3.226s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.bash
+[3.226s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.sh
+[3.226s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.zsh
+[3.227s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/local_setup.dsv
+[3.227s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/package.dsv
+[3.227s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/ament_index/resource_index/packages/leo_teleop
+[3.228s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig.cmake
+[3.228s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/cmake/leo_teleopConfig-version.cmake
+[3.229s] -- Installing: /home/spacer/leo_ws/install/leo_teleop/share/leo_teleop/package.xml
+[3.233s] Invoked command in '/home/spacer/leo_ws/build/leo_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/spacer/leo_ws/build/leo_teleop

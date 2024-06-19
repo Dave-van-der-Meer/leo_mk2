@@ -1,0 +1,7 @@
+{
+  "package_name": "docker_messages",
+  "non_idl_tuples": [
+    "/home/spacer/custom_messages/src/docker_messages:msg/DockerStatistics.msg",
+    "/home/spacer/custom_messages/src/docker_messages:msg/DockerStatisticsArray.msg"
+  ]
+}

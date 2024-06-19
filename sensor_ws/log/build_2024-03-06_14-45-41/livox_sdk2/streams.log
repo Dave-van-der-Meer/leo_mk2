@@ -1,0 +1,18 @@
+[0.989s] Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_sdk2 -- -j6 -l6
+[1.127s] [ 83%] Built target livox_lidar_sdk_shared
+[1.127s] [ 84%] Built target livox_lidar_sdk_static
+[1.202s] [ 86%] Built target logger
+[1.207s] [ 89%] Built target debug_point_cloud
+[1.211s] [ 91%] Built target multi_lidars_upgrade
+[1.219s] [ 95%] Built target livox_lidar_rmc_time_sync
+[1.228s] [ 97%] Built target lidar_cmd_observer
+[1.228s] [100%] Built target livox_lidar_quick_start
+[1.260s] Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_sdk2 -- -j6 -l6
+[1.338s] Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_sdk2
+[1.356s] -- Install configuration: ""
+[1.357s] -- Up-to-date: /home/spacer/sensor_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[1.357s] -- Up-to-date: /home/spacer/sensor_ws/install/livox_sdk2/include/livox_lidar_def.h
+[1.358s] -- Up-to-date: /home/spacer/sensor_ws/install/livox_sdk2/include/livox_lidar_api.h
+[1.358s] -- Up-to-date: /home/spacer/sensor_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+[1.358s] -- Up-to-date: /home/spacer/sensor_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[1.365s] Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_sdk2

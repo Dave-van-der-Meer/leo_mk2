@@ -1,0 +1,67 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/spacer/slam/slam_toolbox_config/odometry_ws/build/rf2o_laser_odometry
+[35m[1mScanning dependencies of target rf2o_laser_odometry_node[0m
+[35m[1mScanning dependencies of target rf2o_laser_odometry[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+In file included from [01m[K/home/spacer/slam/slam_toolbox_config/odometry_ws/src/include/rf2o_laser_odometry/CLaserOdometry2DNode.h:9[m[K,
+                 from [01m[K/home/spacer/slam/slam_toolbox_config/odometry_ws/src/src/CLaserOdometry2DNode.cpp:18[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[ 80%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[ 80%] Built target rf2o_laser_odometry
+[100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[100%] Built target rf2o_laser_odometry_node
+-- Install configuration: ""
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+-- Set runtime path of "/home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+-- Installing: /home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml

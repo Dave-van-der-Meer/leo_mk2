@@ -1,0 +1,15 @@
+[Unit]
+Description=Custom boot systemd service that start a ROS 2 package in order to monitor the docker containers on the device.
+After=network.taget
+
+[Service]
+Type=simple
+User=spacer
+Environment="ROS_DOMAIN_ID=0"
+Environment="HOME=/home/spacer"
+ExecStart=/bin/bash -c 'source /opt/ros/humble/setup.bash && source /home/spacer/leo_ws/install/setup.bash && ros2 launch docker_stats docker_stats.launch.py'
+Restart=always
+
+
+[Install]
+WantedBy=multi-user.target

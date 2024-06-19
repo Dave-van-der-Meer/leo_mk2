@@ -1,0 +1,274 @@
+[0.026s] Invoking command in '/home/spacer/custom_messages/build/docker_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/spacer/custom_messages/src/docker_messages -DCMAKE_INSTALL_PREFIX=/home/spacer/custom_messages/install/docker_messages
+[0.260s] -- The C compiler identification is GNU 9.4.0
+[0.419s] -- The CXX compiler identification is GNU 9.4.0
+[0.433s] -- Check for working C compiler: /usr/bin/cc
+[0.590s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.593s] -- Detecting C compiler ABI info
+[0.746s] -- Detecting C compiler ABI info - done
+[0.765s] -- Detecting C compile features
+[0.766s] -- Detecting C compile features - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++
+[0.934s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.936s] -- Detecting CXX compiler ABI info
+[1.093s] -- Detecting CXX compiler ABI info - done
+[1.119s] -- Detecting CXX compile features
+[1.120s] -- Detecting CXX compile features - done
+[1.129s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.474s] -- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter 
+[1.709s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.807s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.821s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.848s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.887s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.940s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.121s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.189s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.311s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[5.313s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.377s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.378s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.378s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.378s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.439s] -- Found PythonExtra: .so  
+[5.570s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.625s] -- Added test 'lint_cmake' to check CMake code style
+[5.629s] -- Added test 'xmllint' to check XML markup files
+[5.641s] -- Configuring done
+[5.717s] -- Generating done
+[5.723s] -- Build files have been written to: /home/spacer/custom_messages/build/docker_messages
+[5.740s] Invoked command in '/home/spacer/custom_messages/build/docker_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/spacer/custom_messages/src/docker_messages -DCMAKE_INSTALL_PREFIX=/home/spacer/custom_messages/install/docker_messages
+[5.744s] Invoking command in '/home/spacer/custom_messages/build/docker_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/spacer/custom_messages/build/docker_messages -- -j6 -l6
+[5.838s] [35m[1mScanning dependencies of target docker_messages__cpp[0m
+[5.850s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.862s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.633s] [  5%] Built target docker_messages__cpp
+[6.658s] [35m[1mScanning dependencies of target ament_cmake_python_copy_docker_messages[0m
+[6.658s] [35m[1mScanning dependencies of target docker_messages__rosidl_generator_c[0m
+[6.693s] [  7%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_c.dir/rosidl_generator_c/docker_messages/msg/detail/docker_statistics__functions.c.o[0m
+[6.693s] [ 10%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_c.dir/rosidl_generator_c/docker_messages/msg/detail/docker_statistics_array__functions.c.o[0m
+[6.717s] [ 10%] Built target ament_cmake_python_copy_docker_messages
+[6.764s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.869s] [ 15%] [32m[1mLinking C shared library libdocker_messages__rosidl_generator_c.so[0m
+[6.959s] [ 15%] Built target docker_messages__rosidl_generator_c
+[6.985s] [35m[1mScanning dependencies of target ament_cmake_python_build_docker_messages_egg[0m
+[7.410s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_introspection_cpp[0m
+[7.446s] [ 17%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/docker_messages/msg/detail/docker_statistics__type_support.cpp.o[0m
+[7.860s] running egg_info
+[7.861s] creating docker_messages.egg-info
+[7.862s] writing docker_messages.egg-info/PKG-INFO
+[7.862s] writing dependency_links to docker_messages.egg-info/dependency_links.txt
+[7.863s] writing top-level names to docker_messages.egg-info/top_level.txt
+[7.873s] writing manifest file 'docker_messages.egg-info/SOURCES.txt'
+[7.992s] reading manifest file 'docker_messages.egg-info/SOURCES.txt'
+[7.993s] writing manifest file 'docker_messages.egg-info/SOURCES.txt'
+[8.094s] [ 17%] Built target ament_cmake_python_build_docker_messages_egg
+[8.114s] [ 20%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/docker_messages/msg/detail/docker_statistics_array__type_support.cpp.o[0m
+[9.227s] [ 23%] [32m[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_introspection_cpp.so[0m
+[9.373s] [ 23%] Built target docker_messages__rosidl_typesupport_introspection_cpp
+[9.405s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.073s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_c[0m
+[10.104s] [ 28%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/docker_messages/msg/docker_statistics_array__type_support.cpp.o[0m
+[10.111s] [ 30%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/docker_messages/msg/docker_statistics__type_support.cpp.o[0m
+[10.183s] [ 33%] [32m[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_c.so[0m
+[10.262s] [ 33%] Built target docker_messages__rosidl_typesupport_c
+[10.286s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.869s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_introspection_c[0m
+[10.903s] [ 38%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/docker_messages/msg/detail/docker_statistics_array__type_support.c.o[0m
+[10.904s] [ 41%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/docker_messages/msg/detail/docker_statistics__type_support.c.o[0m
+[10.998s] [ 43%] [32m[1mLinking C shared library libdocker_messages__rosidl_typesupport_introspection_c.so[0m
+[11.060s] [ 43%] Built target docker_messages__rosidl_typesupport_introspection_c
+[11.083s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.083s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.731s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_fastrtps_c[0m
+[11.749s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_fastrtps_cpp[0m
+[11.772s] [ 51%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/docker_messages/msg/detail/docker_statistics__type_support_c.cpp.o[0m
+[11.788s] [ 53%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/docker_messages/msg/detail/dds_fastrtps/docker_statistics_array__type_support.cpp.o[0m
+[11.798s] [ 56%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/docker_messages/msg/detail/dds_fastrtps/docker_statistics__type_support.cpp.o[0m
+[11.806s] [ 58%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/docker_messages/msg/detail/docker_statistics_array__type_support_c.cpp.o[0m
+[12.866s] [ 61%] [32m[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_fastrtps_c.so[0m
+[12.953s] [ 64%] [32m[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.033s] [ 64%] Built target docker_messages__rosidl_typesupport_fastrtps_c
+[13.057s] [ 66%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.112s] [ 66%] Built target docker_messages__rosidl_typesupport_fastrtps_cpp
+[13.616s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_cpp[0m
+[13.648s] [ 69%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/docker_messages/msg/docker_statistics_array__type_support.cpp.o[0m
+[13.649s] [ 71%] [32mBuilding CXX object CMakeFiles/docker_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/docker_messages/msg/docker_statistics__type_support.cpp.o[0m
+[14.319s] [ 74%] [32m[1mLinking CXX shared library libdocker_messages__rosidl_typesupport_cpp.so[0m
+[14.396s] [ 74%] Built target docker_messages__rosidl_typesupport_cpp
+[14.424s] [35m[1mScanning dependencies of target docker_messages[0m
+[14.449s] [ 74%] Built target docker_messages
+[14.473s] [35m[1mScanning dependencies of target docker_messages__py[0m
+[14.496s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.357s] [ 76%] Built target docker_messages__py
+[15.379s] [35m[1mScanning dependencies of target docker_messages__rosidl_generator_py[0m
+[15.446s] [ 79%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_py.dir/rosidl_generator_py/docker_messages/msg/_docker_statistics_array_s.c.o[0m
+[15.451s] [ 82%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_generator_py.dir/rosidl_generator_py/docker_messages/msg/_docker_statistics_s.c.o[0m
+[15.706s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/docker_messages/libdocker_messages__rosidl_generator_py.so[0m
+[15.788s] [ 84%] Built target docker_messages__rosidl_generator_py
+[15.811s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_introspection_c__pyext[0m
+[15.811s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_c__pyext[0m
+[15.812s] [35m[1mScanning dependencies of target docker_messages__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.861s] [ 89%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/docker_messages/_docker_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[15.862s] [ 89%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/docker_messages/_docker_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.870s] [ 92%] [32mBuilding C object CMakeFiles/docker_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/docker_messages/_docker_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.067s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.084s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.098s] [100%] [32m[1mLinking C shared library rosidl_generator_py/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[16.153s] [100%] Built target docker_messages__rosidl_typesupport_introspection_c__pyext
+[16.168s] [100%] Built target docker_messages__rosidl_typesupport_fastrtps_c__pyext
+[16.196s] [100%] Built target docker_messages__rosidl_typesupport_c__pyext
+[16.227s] Invoked command in '/home/spacer/custom_messages/build/docker_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/spacer/custom_messages/build/docker_messages -- -j6 -l6
+[16.393s] Invoking command in '/home/spacer/custom_messages/build/docker_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/spacer/custom_messages/build/docker_messages
+[16.412s] -- Install configuration: ""
+[16.412s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/ament_index/resource_index/rosidl_interfaces/docker_messages
+[16.412s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages
+[16.413s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg
+[16.413s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics_array.h
+[16.414s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail
+[16.414s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__functions.c
+[16.415s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__struct.h
+[16.415s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__struct.h
+[16.415s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__functions.c
+[16.415s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__type_support.h
+[16.416s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__functions.h
+[16.416s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__functions.h
+[16.417s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__type_support.h
+[16.417s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics.h
+[16.417s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_generator_c__visibility_control.h
+[16.417s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/library_path.sh
+[16.417s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/library_path.dsv
+[16.417s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_generator_c.so
+[16.418s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_generator_c.so" to ""
+[16.418s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages
+[16.418s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg
+[16.418s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.418s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail
+[16.418s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_fastrtps_c.h
+[16.419s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_fastrtps_c.h
+[16.419s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_c.so
+[16.420s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[16.420s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages
+[16.421s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg
+[16.421s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics.hpp
+[16.423s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail
+[16.423s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__builder.hpp
+[16.423s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__traits.hpp
+[16.423s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__struct.hpp
+[16.424s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__struct.hpp
+[16.424s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__builder.hpp
+[16.424s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__traits.hpp
+[16.424s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/docker_statistics_array.hpp
+[16.425s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages
+[16.425s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg
+[16.425s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.426s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail
+[16.426s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_fastrtps_cpp.hpp
+[16.426s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[16.426s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/dds_fastrtps
+[16.427s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_cpp.so
+[16.427s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.427s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages
+[16.428s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg
+[16.428s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.428s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail
+[16.428s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__type_support.c
+[16.428s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__type_support.c
+[16.429s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_introspection_c.h
+[16.429s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_introspection_c.h
+[16.429s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_c.so
+[16.429s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_c.so" to ""
+[16.429s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_c.so
+[16.429s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_c.so" to ""
+[16.430s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages
+[16.430s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg
+[16.430s] -- Up-to-date: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail
+[16.430s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__type_support.cpp
+[16.430s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics__rosidl_typesupport_introspection_cpp.hpp
+[16.431s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__rosidl_typesupport_introspection_cpp.hpp
+[16.431s] -- Installing: /home/spacer/custom_messages/install/docker_messages/include/docker_messages/docker_messages/msg/detail/docker_statistics_array__type_support.cpp
+[16.431s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_cpp.so
+[16.432s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[16.432s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_cpp.so
+[16.432s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_typesupport_cpp.so" to ""
+[16.433s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/pythonpath.sh
+[16.434s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/pythonpath.dsv
+[16.434s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info
+[16.434s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/PKG-INFO
+[16.434s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/SOURCES.txt
+[16.435s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/top_level.txt
+[16.435s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages-0.0.0-py3.9.egg-info/dependency_links.txt
+[16.436s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages
+[16.436s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/_docker_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.436s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/libdocker_messages__rosidl_generator_py.so
+[16.436s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[16.436s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_array_s.c
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_array.py
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/__init__.py
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_s.c
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics.py
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/__init__.py
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/_docker_messages_s.ep.rosidl_typesupport_introspection_c.c
+[16.437s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/_docker_messages_s.ep.rosidl_typesupport_c.c
+[16.438s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[16.438s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[16.523s] Listing '/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages'...
+[16.523s] Compiling '/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/__init__.py'...
+[16.524s] Listing '/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg'...
+[16.524s] Compiling '/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/__init__.py'...
+[16.524s] Compiling '/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics.py'...
+[16.524s] Compiling '/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/msg/_docker_statistics_array.py'...
+[16.539s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[16.540s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[16.541s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[16.542s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[16.542s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[16.543s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/python3.9/site-packages/docker_messages/docker_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[16.544s] -- Installing: /home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_generator_py.so
+[16.544s] -- Set runtime path of "/home/spacer/custom_messages/install/docker_messages/lib/libdocker_messages__rosidl_generator_py.so" to ""
+[16.545s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/msg/DockerStatistics.idl
+[16.545s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/msg/DockerStatisticsArray.idl
+[16.545s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/msg/DockerStatistics.msg
+[16.546s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/msg/DockerStatisticsArray.msg
+[16.546s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/ament_index/resource_index/package_run_dependencies/docker_messages
+[16.547s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/ament_index/resource_index/parent_prefix_path/docker_messages
+[16.547s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/ament_prefix_path.sh
+[16.547s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/ament_prefix_path.dsv
+[16.548s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/path.sh
+[16.548s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/environment/path.dsv
+[16.548s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/local_setup.bash
+[16.548s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/local_setup.sh
+[16.549s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/local_setup.zsh
+[16.549s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/local_setup.dsv
+[16.549s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/package.dsv
+[16.549s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/ament_index/resource_index/packages/docker_messages
+[16.550s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_cExport.cmake
+[16.551s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_cExport-noconfig.cmake
+[16.551s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[16.552s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.552s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_cppExport.cmake
+[16.553s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.553s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.553s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cExport.cmake
+[16.554s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.554s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cExport.cmake
+[16.555s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cExport-noconfig.cmake
+[16.555s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cppExport.cmake
+[16.555s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.556s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cppExport.cmake
+[16.556s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[16.557s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_pyExport.cmake
+[16.557s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/export_docker_messages__rosidl_generator_pyExport-noconfig.cmake
+[16.557s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/rosidl_cmake-extras.cmake
+[16.558s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.558s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.558s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[16.558s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/ament_cmake_export_targets-extras.cmake
+[16.559s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.559s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.559s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messagesConfig.cmake
+[16.559s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/cmake/docker_messagesConfig-version.cmake
+[16.560s] -- Installing: /home/spacer/custom_messages/install/docker_messages/share/docker_messages/package.xml
+[16.567s] Invoked command in '/home/spacer/custom_messages/build/docker_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/spacer/custom_messages/build/docker_messages

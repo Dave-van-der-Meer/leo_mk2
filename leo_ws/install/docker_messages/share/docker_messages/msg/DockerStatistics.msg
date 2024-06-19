@@ -1,0 +1,9 @@
+std_msgs/Header header
+string id
+string name
+float32 cpu
+float32 ram
+float32 net_i
+float32 net_o
+float32 block_i
+float32 block_o

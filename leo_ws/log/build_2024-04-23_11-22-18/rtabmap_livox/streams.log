@@ -1,0 +1,33 @@
+[1.451s] Invoking command in '/home/spacer/leo_ws/build/rtabmap_livox': PYTHONPATH=/home/spacer/leo_ws/build/rtabmap_livox/prefix_override:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/spacer/leo_ws/build/rtabmap_livox/build
+[2.120s] running develop
+[2.590s] Removing /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap-livox.egg-link (link to .)
+[2.661s] Invoked command in '/home/spacer/leo_ws/build/rtabmap_livox' returned '0': PYTHONPATH=/home/spacer/leo_ws/build/rtabmap_livox/prefix_override:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/spacer/leo_ws/build/rtabmap_livox/build
+[2.669s] Invoking command in '/home/spacer/leo_ws/src/rtabmap_livox': PYTHONPATH=/home/spacer/leo_ws/build/rtabmap_livox/prefix_override:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rtabmap_livox build --build-base /home/spacer/leo_ws/build/rtabmap_livox/build install --record /home/spacer/leo_ws/build/rtabmap_livox/install.log --single-version-externally-managed install_data --force
+[3.290s] running egg_info
+[3.291s] writing ../../build/rtabmap_livox/rtabmap_livox.egg-info/PKG-INFO
+[3.292s] writing dependency_links to ../../build/rtabmap_livox/rtabmap_livox.egg-info/dependency_links.txt
+[3.292s] writing entry points to ../../build/rtabmap_livox/rtabmap_livox.egg-info/entry_points.txt
+[3.293s] writing requirements to ../../build/rtabmap_livox/rtabmap_livox.egg-info/requires.txt
+[3.293s] writing top-level names to ../../build/rtabmap_livox/rtabmap_livox.egg-info/top_level.txt
+[3.374s] reading manifest file '../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[3.377s] writing manifest file '../../build/rtabmap_livox/rtabmap_livox.egg-info/SOURCES.txt'
+[3.377s] running build
+[3.378s] running build_py
+[3.378s] creating /home/spacer/leo_ws/build/rtabmap_livox/build
+[3.378s] creating /home/spacer/leo_ws/build/rtabmap_livox/build/lib
+[3.378s] creating /home/spacer/leo_ws/build/rtabmap_livox/build/lib/rtabmap_livox
+[3.379s] copying rtabmap_livox/__init__.py -> /home/spacer/leo_ws/build/rtabmap_livox/build/lib/rtabmap_livox
+[3.379s] running install
+[3.381s] running install_lib
+[3.384s] creating /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap_livox
+[3.384s] copying /home/spacer/leo_ws/build/rtabmap_livox/build/lib/rtabmap_livox/__init__.py -> /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap_livox
+[3.385s] byte-compiling /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap_livox/__init__.py to __init__.cpython-38.pyc
+[3.389s] running install_data
+[3.389s] copying resource/rtabmap_livox -> /home/spacer/leo_ws/install/rtabmap_livox/share/ament_index/resource_index/packages
+[3.390s] copying package.xml -> /home/spacer/leo_ws/install/rtabmap_livox/share/rtabmap_livox
+[3.390s] copying launch/rtabmap_livox.launch.py -> /home/spacer/leo_ws/install/rtabmap_livox/share/rtabmap_livox/launch
+[3.390s] running install_egg_info
+[3.394s] Copying ../../build/rtabmap_livox/rtabmap_livox.egg-info to /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap_livox-0.0.0-py3.8.egg-info
+[3.397s] running install_scripts
+[3.440s] writing list of installed files to '/home/spacer/leo_ws/build/rtabmap_livox/install.log'
+[3.509s] Invoked command in '/home/spacer/leo_ws/src/rtabmap_livox' returned '0': PYTHONPATH=/home/spacer/leo_ws/build/rtabmap_livox/prefix_override:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rtabmap_livox build --build-base /home/spacer/leo_ws/build/rtabmap_livox/build install --record /home/spacer/leo_ws/build/rtabmap_livox/install.log --single-version-externally-managed install_data --force

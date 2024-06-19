@@ -1,0 +1,26 @@
+[1.548s] Invoking command in '/home/spacer/leo_ws/build/rtabmap_livox': PYTHONPATH=/home/spacer/leo_ws/build/rtabmap_livox/prefix_override:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/spacer/leo_ws/build/rtabmap_livox/build --no-deps symlink_data
+[2.088s] running develop
+[2.434s] running egg_info
+[2.435s] creating rtabmap_livox.egg-info
+[2.435s] writing rtabmap_livox.egg-info/PKG-INFO
+[2.435s] writing dependency_links to rtabmap_livox.egg-info/dependency_links.txt
+[2.436s] writing entry points to rtabmap_livox.egg-info/entry_points.txt
+[2.436s] writing requirements to rtabmap_livox.egg-info/requires.txt
+[2.436s] writing top-level names to rtabmap_livox.egg-info/top_level.txt
+[2.444s] writing manifest file 'rtabmap_livox.egg-info/SOURCES.txt'
+[2.503s] reading manifest file 'rtabmap_livox.egg-info/SOURCES.txt'
+[2.504s] writing manifest file 'rtabmap_livox.egg-info/SOURCES.txt'
+[2.573s] running build_ext
+[2.574s] Creating /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/site.py
+[2.578s] Creating /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap-livox.egg-link (link to .)
+[2.579s] 
+[2.580s] Installed /home/spacer/leo_ws/build/rtabmap_livox
+[2.580s] running symlink_data
+[2.581s] creating /home/spacer/leo_ws/install/rtabmap_livox/share/ament_index
+[2.581s] creating /home/spacer/leo_ws/install/rtabmap_livox/share/ament_index/resource_index
+[2.581s] creating /home/spacer/leo_ws/install/rtabmap_livox/share/ament_index/resource_index/packages
+[2.581s] symbolically linking /home/spacer/leo_ws/build/rtabmap_livox/resource/rtabmap_livox -> /home/spacer/leo_ws/install/rtabmap_livox/share/ament_index/resource_index/packages
+[2.582s] symbolically linking /home/spacer/leo_ws/build/rtabmap_livox/package.xml -> /home/spacer/leo_ws/install/rtabmap_livox/share/rtabmap_livox
+[2.582s] creating /home/spacer/leo_ws/install/rtabmap_livox/share/rtabmap_livox/launch
+[2.582s] symbolically linking /home/spacer/leo_ws/build/rtabmap_livox/launch/rtabmap_livox.launch.py -> /home/spacer/leo_ws/install/rtabmap_livox/share/rtabmap_livox/launch
+[2.660s] Invoked command in '/home/spacer/leo_ws/build/rtabmap_livox' returned '0': PYTHONPATH=/home/spacer/leo_ws/build/rtabmap_livox/prefix_override:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/spacer/leo_ws/build/rtabmap_livox/build --no-deps symlink_data

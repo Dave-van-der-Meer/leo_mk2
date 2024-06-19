@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/docker_stats/docker_stats.egg-info/PKG-INFO
+writing dependency_links to ../../build/docker_stats/docker_stats.egg-info/dependency_links.txt
+writing entry points to ../../build/docker_stats/docker_stats.egg-info/entry_points.txt
+writing requirements to ../../build/docker_stats/docker_stats.egg-info/requires.txt
+writing top-level names to ../../build/docker_stats/docker_stats.egg-info/top_level.txt
+reading manifest file '../../build/docker_stats/docker_stats.egg-info/SOURCES.txt'
+writing manifest file '../../build/docker_stats/docker_stats.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/docker_stats.launch.py -> /home/spacer/leo_ws/install/docker_stats/share/docker_stats/launch
+running install_egg_info
+removing '/home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages/docker_stats-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/docker_stats/docker_stats.egg-info to /home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages/docker_stats-0.0.0-py3.8.egg-info
+running install_scripts
+Installing docker_stats_node script to /home/spacer/leo_ws/install/docker_stats/lib/docker_stats
+writing list of installed files to '/home/spacer/leo_ws/build/docker_stats/install.log'

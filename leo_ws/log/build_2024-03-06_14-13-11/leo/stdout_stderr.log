@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/spacer/leo_ws/build/leo
+-- Install configuration: ""
+-- Installing: /home/spacer/leo_ws/install/leo/share/ament_index/resource_index/package_run_dependencies/leo
+-- Installing: /home/spacer/leo_ws/install/leo/share/ament_index/resource_index/parent_prefix_path/leo
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/environment/ament_prefix_path.sh
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/environment/ament_prefix_path.dsv
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/environment/path.sh
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/environment/path.dsv
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/local_setup.bash
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/local_setup.sh
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/local_setup.zsh
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/local_setup.dsv
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/package.dsv
+-- Installing: /home/spacer/leo_ws/install/leo/share/ament_index/resource_index/packages/leo
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/cmake/leoConfig.cmake
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/cmake/leoConfig-version.cmake
+-- Installing: /home/spacer/leo_ws/install/leo/share/leo/package.xml

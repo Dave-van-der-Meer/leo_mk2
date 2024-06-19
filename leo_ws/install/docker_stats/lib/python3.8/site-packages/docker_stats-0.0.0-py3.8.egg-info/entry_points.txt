@@ -1,0 +1,3 @@
+[console_scripts]
+docker_stats_node = docker_stats.docker_stats_node:main
+

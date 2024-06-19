@@ -1,0 +1,6 @@
+Invoking command in '/home/spacer/leo_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/spacer/leo_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/micro_ros_agent
+Invoked command in '/home/spacer/leo_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/spacer/leo_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/micro_ros_agent
+Invoking command in '/home/spacer/leo_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/spacer/leo_ws/build/micro_ros_agent -- -j6 -l6
+Invoked command in '/home/spacer/leo_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/spacer/leo_ws/build/micro_ros_agent -- -j6 -l6
+Invoking command in '/home/spacer/leo_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/spacer/leo_ws/build/micro_ros_agent
+Invoked command in '/home/spacer/leo_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/spacer/leo_ws/build/micro_ros_agent

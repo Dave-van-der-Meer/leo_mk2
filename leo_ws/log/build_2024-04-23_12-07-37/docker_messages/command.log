@@ -1,0 +1,6 @@
+Invoking command in '/home/spacer/leo_ws/build/docker_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/spacer/leo_ws/src/docker_messages -DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/docker_messages
+Invoked command in '/home/spacer/leo_ws/build/docker_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/spacer/leo_ws/src/docker_messages -DCMAKE_INSTALL_PREFIX=/home/spacer/leo_ws/install/docker_messages
+Invoking command in '/home/spacer/leo_ws/build/docker_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/spacer/leo_ws/build/docker_messages -- -j6 -l6
+Invoked command in '/home/spacer/leo_ws/build/docker_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/spacer/leo_ws/build/docker_messages -- -j6 -l6
+Invoking command in '/home/spacer/leo_ws/build/docker_messages': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/spacer/leo_ws/build/docker_messages
+Invoked command in '/home/spacer/leo_ws/build/docker_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/spacer/leo_ws/build/docker_messages

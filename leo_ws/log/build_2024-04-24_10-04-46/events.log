@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.001028] (-) JobUnselected: {'identifier': 'docker_messages'}
+[0.001663] (-) JobUnselected: {'identifier': 'leo'}
+[0.001741] (-) JobUnselected: {'identifier': 'leo_description'}
+[0.002223] (-) JobUnselected: {'identifier': 'leo_msgs'}
+[0.002568] (-) JobUnselected: {'identifier': 'leo_teleop'}
+[0.002636] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002725] (-) JobUnselected: {'identifier': 'rtabmap_livox'}
+[0.002818] (docker_stats) JobQueued: {'identifier': 'docker_stats', 'dependencies': OrderedDict([('docker_messages', '/home/spacer/leo_ws/install/docker_messages')])}
+[0.002891] (docker_stats) JobStarted: {'identifier': 'docker_stats'}
+[0.099133] (-) TimerEvent: {}
+[0.199904] (-) TimerEvent: {}
+[0.300531] (-) TimerEvent: {}
+[0.401180] (-) TimerEvent: {}
+[0.501942] (-) TimerEvent: {}
+[0.604004] (-) TimerEvent: {}
+[0.705133] (-) TimerEvent: {}
+[0.805945] (-) TimerEvent: {}
+[0.906553] (-) TimerEvent: {}
+[1.007239] (-) TimerEvent: {}
+[1.107862] (-) TimerEvent: {}
+[1.208460] (-) TimerEvent: {}
+[1.309082] (-) TimerEvent: {}
+[1.409798] (-) TimerEvent: {}
+[1.510472] (-) TimerEvent: {}
+[1.537995] (docker_stats) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/docker_stats', 'build', '--build-base', '/home/spacer/leo_ws/build/docker_stats/build', 'install', '--record', '/home/spacer/leo_ws/build/docker_stats/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/spacer/leo_ws/src/docker_stats', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'spacer', 'SSH_CLIENT': '10.42.0.212 38106 22', 'LC_TIME': 'de_LU.UTF-8', 'ROS_NAMESPACE': 'leo05', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/spacer/leo_ws/install/docker_messages/lib:/home/spacer/leo_ws/install/micro_ros_agent/lib:/home/spacer/leo_ws/install/leo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/spacer', 'OLDPWD': '/home/spacer', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_LU.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/spacer/leo_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'spacer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/spacer/.local/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_LU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_LU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/spacer/leo_ws/install/rtabmap_livox:/home/spacer/leo_ws/install/micro_ros_agent:/home/spacer/leo_ws/install/leo:/home/spacer/leo_ws/install/leo_teleop:/home/spacer/leo_ws/install/leo_msgs:/home/spacer/leo_ws/install/leo_description:/home/spacer/leo_ws/install/docker_stats:/home/spacer/leo_ws/install/docker_messages:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_LU.UTF-8', 'ROS_MASTER_URI': 'http://master:11311', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/spacer/leo_ws/install/leo_description:/home/spacer/leo_ws/install/leo_description/share', 'LC_MEASUREMENT': 'de_LU.UTF-8', 'LC_IDENTIFICATION': 'de_LU.UTF-8', 'PWD': '/home/spacer/leo_ws/build/docker_stats', 'ROS_IPV6': 'on', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.212 38106 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/spacer/leo_ws/build/docker_stats/prefix_override:/home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages:/home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages:/home/spacer/leo_ws/install/leo_msgs/lib/python3.8/site-packages:/home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages:/home/spacer/leo_ws/install/docker_messages/lib/python3.9/site-packages:/opt/ros/humble/lib/python3.8/site-packages', 'ROS_HOSTNAME': 'master', 'LC_NUMERIC': 'de_LU.UTF-8', 'LC_PAPER': 'de_LU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/spacer/leo_ws/install/docker_messages:/home/spacer/leo_ws/install/micro_ros_agent:/home/spacer/leo_ws/install/leo:/home/spacer/leo_ws/install/leo_teleop:/home/spacer/leo_ws/install/leo_msgs:/home/spacer/leo_ws/install/leo_description'}, 'shell': False}
+[1.610691] (-) TimerEvent: {}
+[1.711511] (-) TimerEvent: {}
+[1.812225] (-) TimerEvent: {}
+[1.912963] (-) TimerEvent: {}
+[2.013641] (-) TimerEvent: {}
+[2.062323] (docker_stats) StdoutLine: {'line': b'running egg_info\n'}
+[2.063612] (docker_stats) StdoutLine: {'line': b'writing ../../build/docker_stats/docker_stats.egg-info/PKG-INFO\n'}
+[2.064205] (docker_stats) StdoutLine: {'line': b'writing dependency_links to ../../build/docker_stats/docker_stats.egg-info/dependency_links.txt\n'}
+[2.064556] (docker_stats) StdoutLine: {'line': b'writing entry points to ../../build/docker_stats/docker_stats.egg-info/entry_points.txt\n'}
+[2.064862] (docker_stats) StdoutLine: {'line': b'writing requirements to ../../build/docker_stats/docker_stats.egg-info/requires.txt\n'}
+[2.065139] (docker_stats) StdoutLine: {'line': b'writing top-level names to ../../build/docker_stats/docker_stats.egg-info/top_level.txt\n'}
+[2.113803] (-) TimerEvent: {}
+[2.128951] (docker_stats) StdoutLine: {'line': b"reading manifest file '../../build/docker_stats/docker_stats.egg-info/SOURCES.txt'\n"}
+[2.130518] (docker_stats) StdoutLine: {'line': b"writing manifest file '../../build/docker_stats/docker_stats.egg-info/SOURCES.txt'\n"}
+[2.131062] (docker_stats) StdoutLine: {'line': b'running build\n'}
+[2.131469] (docker_stats) StdoutLine: {'line': b'running build_py\n'}
+[2.131742] (docker_stats) StdoutLine: {'line': b'copying docker_stats/docker_stats_node.py -> /home/spacer/leo_ws/build/docker_stats/build/lib/docker_stats\n'}
+[2.132171] (docker_stats) StdoutLine: {'line': b'running install\n'}
+[2.133812] (docker_stats) StdoutLine: {'line': b'running install_lib\n'}
+[2.136289] (docker_stats) StdoutLine: {'line': b'copying /home/spacer/leo_ws/build/docker_stats/build/lib/docker_stats/docker_stats_node.py -> /home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages/docker_stats\n'}
+[2.137891] (docker_stats) StdoutLine: {'line': b'byte-compiling /home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages/docker_stats/docker_stats_node.py to docker_stats_node.cpython-38.pyc\n'}
+[2.142121] (docker_stats) StdoutLine: {'line': b'running install_data\n'}
+[2.142618] (docker_stats) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.147051] (docker_stats) StdoutLine: {'line': b"removing '/home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages/docker_stats-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.147862] (docker_stats) StdoutLine: {'line': b'Copying ../../build/docker_stats/docker_stats.egg-info to /home/spacer/leo_ws/install/docker_stats/lib/python3.8/site-packages/docker_stats-0.0.0-py3.8.egg-info\n'}
+[2.149824] (docker_stats) StdoutLine: {'line': b'running install_scripts\n'}
+[2.185101] (docker_stats) StdoutLine: {'line': b'Installing docker_stats_node script to /home/spacer/leo_ws/install/docker_stats/lib/docker_stats\n'}
+[2.186010] (docker_stats) StdoutLine: {'line': b"writing list of installed files to '/home/spacer/leo_ws/build/docker_stats/install.log'\n"}
+[2.213976] (-) TimerEvent: {}
+[2.247081] (docker_stats) CommandEnded: {'returncode': 0}
+[2.275034] (docker_stats) JobEnded: {'identifier': 'docker_stats', 'rc': 0}
+[2.276994] (-) EventReactorShutdown: {}

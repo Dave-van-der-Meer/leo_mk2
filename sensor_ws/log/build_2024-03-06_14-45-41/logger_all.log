@@ -1,0 +1,207 @@
+[10.340s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[10.340s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff944122e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff944122e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff94412e20>)
+[10.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.789s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/spacer/sensor_ws'
+[10.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.790s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.816s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[10.816s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ignore'
+[10.816s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ignore_ament_install'
+[10.816s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['colcon_pkg']
+[10.816s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'colcon_pkg'
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['colcon_meta']
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'colcon_meta'
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['ros']
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ros'
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['cmake', 'python']
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'cmake'
+[10.852s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'python'
+[10.852s] DEBUG:colcon.colcon_core.package_identification:Package 'Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[10.852s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[10.855s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[10.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[10.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[10.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[10.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[10.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[10.864s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[10.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.829s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/spacer/sensor_ws/install
+[12.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/spacer/ros_ws/install
+[12.575s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 262 installed packages in /opt/ros/foxy
+[12.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[13.133s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[13.133s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[13.133s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.133s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[13.133s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[13.133s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[13.134s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[13.134s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[13.134s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.134s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/spacer/sensor_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/spacer/sensor_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/spacer/sensor_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[13.319s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_args' from command line to 'None'
+[13.319s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target' from command line to 'None'
+[13.319s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.319s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_cache' from command line to 'False'
+[13.319s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_first' from command line to 'False'
+[13.320s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_force_configure' from command line to 'False'
+[13.320s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'ament_cmake_args' from command line to 'None'
+[13.320s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_cmake_args' from command line to 'None'
+[13.320s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.320s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/spacer/sensor_ws/build/livox_sdk2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/spacer/sensor_ws/install/livox_sdk2', 'merge_install': False, 'path': '/home/spacer/sensor_ws/Livox-SDK2', 'symlink_install': False, 'test_result_base': None}
+[13.504s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[13.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[13.691s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/spacer/sensor_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[13.691s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/spacer/sensor_ws/src/livox_ros_driver2'
+[13.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.654s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/spacer/sensor_ws/Livox-SDK2'
+[14.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spacer/sensor_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_ros_driver2 -- -j6 -l6
+[15.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_sdk2 -- -j6 -l6
+[15.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_sdk2 -- -j6 -l6
+[15.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spacer/sensor_ws/build/livox_sdk2': /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_sdk2
+[16.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk2)
+[16.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spacer/sensor_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_sdk2
+[16.275s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2' for CMake module files
+[16.277s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2' for CMake config files
+[16.279s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2/lib'
+[16.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk2', 'ld_library_path_lib')
+[16.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.ps1'
+[16.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.dsv'
+[16.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.sh'
+[16.514s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2/bin'
+[16.514s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2/lib/pkgconfig/livox_sdk2.pc'
+[16.515s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2/lib/python3.8/site-packages'
+[16.515s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_sdk2/bin'
+[16.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/package.ps1'
+[16.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/package.dsv'
+[16.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/package.sh'
+[16.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/package.bash'
+[16.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_sdk2/share/livox_sdk2/package.zsh'
+[16.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spacer/sensor_ws/install/livox_sdk2/share/colcon-core/packages/livox_sdk2)
+[16.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spacer/sensor_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/spacer/sensor_ws/build/livox_ros_driver2 -- -j6 -l6
+[16.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spacer/sensor_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_ros_driver2
+[17.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[17.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spacer/sensor_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/spacer/sensor_ws/build/livox_ros_driver2
+[17.305s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2' for CMake module files
+[17.306s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2' for CMake config files
+[17.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[17.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[17.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[17.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[17.498s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/lib'
+[17.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[17.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[17.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[17.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[17.689s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/bin'
+[17.689s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[17.689s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/lib/python3.8/site-packages'
+[17.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'pythonpath')
+[17.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.ps1'
+[17.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.dsv'
+[17.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.sh'
+[17.881s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/bin'
+[18.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[18.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[18.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[18.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[18.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[18.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spacer/sensor_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[18.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[18.663s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2' for CMake module files
+[18.664s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2' for CMake config files
+[18.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[18.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[18.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[18.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[18.857s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/lib'
+[18.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[19.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[19.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[19.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[19.047s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/bin'
+[19.048s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[19.048s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/lib/python3.8/site-packages'
+[19.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'pythonpath')
+[19.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.ps1'
+[19.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.dsv'
+[19.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.sh'
+[19.239s] Level 1:colcon.colcon_core.environment:checking '/home/spacer/sensor_ws/install/livox_ros_driver2/bin'
+[19.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[19.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[19.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[19.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[19.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/spacer/sensor_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[19.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spacer/sensor_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[19.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.434s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.635s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.660s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[19.660s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.848s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacer/sensor_ws/install/local_setup.ps1'
+[19.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spacer/sensor_ws/install/_local_setup_util_ps1.py'
+[19.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacer/sensor_ws/install/setup.ps1'
+[20.042s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacer/sensor_ws/install/local_setup.sh'
+[20.043s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spacer/sensor_ws/install/_local_setup_util_sh.py'
+[20.044s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacer/sensor_ws/install/setup.sh'
+[20.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacer/sensor_ws/install/local_setup.bash'
+[20.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacer/sensor_ws/install/setup.bash'
+[20.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spacer/sensor_ws/install/local_setup.zsh'
+[20.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spacer/sensor_ws/install/setup.zsh'

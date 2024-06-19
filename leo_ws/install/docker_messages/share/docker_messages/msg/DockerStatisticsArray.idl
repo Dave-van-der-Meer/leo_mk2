@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from docker_messages/msg/DockerStatisticsArray.msg
+// generated code does not contain a copyright notice
+
+#include "docker_messages/msg/DockerStatistics.idl"
+
+module docker_messages {
+  module msg {
+    struct DockerStatisticsArray {
+      sequence<docker_messages::msg::DockerStatistics> docker_statistics;
+    };
+  };
+};

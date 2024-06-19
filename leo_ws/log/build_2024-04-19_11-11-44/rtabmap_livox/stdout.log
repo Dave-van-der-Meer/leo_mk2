@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing rtabmap_livox.egg-info/PKG-INFO
+writing dependency_links to rtabmap_livox.egg-info/dependency_links.txt
+writing entry points to rtabmap_livox.egg-info/entry_points.txt
+writing requirements to rtabmap_livox.egg-info/requires.txt
+writing top-level names to rtabmap_livox.egg-info/top_level.txt
+reading manifest file 'rtabmap_livox.egg-info/SOURCES.txt'
+writing manifest file 'rtabmap_livox.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/spacer/leo_ws/install/rtabmap_livox/lib/python3.8/site-packages/rtabmap-livox.egg-link (link to .)
+
+Installed /home/spacer/leo_ws/build/rtabmap_livox
+running symlink_data

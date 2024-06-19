@@ -1,0 +1,6 @@
+source;share/rtabmap_livox/hook/pythonpath.ps1
+source;share/rtabmap_livox/hook/pythonpath.dsv
+source;share/rtabmap_livox/hook/pythonpath.sh
+source;share/rtabmap_livox/hook/ament_prefix_path.ps1
+source;share/rtabmap_livox/hook/ament_prefix_path.dsv
+source;share/rtabmap_livox/hook/ament_prefix_path.sh

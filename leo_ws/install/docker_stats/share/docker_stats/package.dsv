@@ -1,0 +1,6 @@
+source;share/docker_stats/hook/pythonpath.ps1
+source;share/docker_stats/hook/pythonpath.dsv
+source;share/docker_stats/hook/pythonpath.sh
+source;share/docker_stats/hook/ament_prefix_path.ps1
+source;share/docker_stats/hook/ament_prefix_path.dsv
+source;share/docker_stats/hook/ament_prefix_path.sh

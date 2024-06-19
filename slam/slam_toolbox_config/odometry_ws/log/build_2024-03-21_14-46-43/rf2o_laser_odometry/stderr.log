@@ -1,0 +1,5 @@
+In file included from [01m[K/home/spacer/slam/slam_toolbox_config/odometry_ws/src/include/rf2o_laser_odometry/CLaserOdometry2DNode.h:9[m[K,
+                 from [01m[K/home/spacer/slam/slam_toolbox_config/odometry_ws/src/src/CLaserOdometry2DNode.cpp:18[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K-Wcpp[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
