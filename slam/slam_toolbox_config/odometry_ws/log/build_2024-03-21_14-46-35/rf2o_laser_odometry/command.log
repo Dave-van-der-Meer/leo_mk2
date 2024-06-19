@@ -1,2 +1,0 @@
-Invoking command in '/home/spacer/slam/slam_toolbox_config/odometry_ws/build/rf2o_laser_odometry': /usr/bin/cmake /home/spacer/slam/slam_toolbox_config/odometry_ws/src -DCMAKE_INSTALL_PREFIX=/home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry
-Invoked command in '/home/spacer/slam/slam_toolbox_config/odometry_ws/build/rf2o_laser_odometry' returned '1': /usr/bin/cmake /home/spacer/slam/slam_toolbox_config/odometry_ws/src -DCMAKE_INSTALL_PREFIX=/home/spacer/slam/slam_toolbox_config/odometry_ws/install/rf2o_laser_odometry
