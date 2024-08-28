@@ -1,0 +1,35 @@
+ukf_tracker_node:
+  ros__parameters:
+    use_sim_time: true
+    data_association:
+      ped:
+        dist:
+          position: 1.5
+          form: 3.0
+      car:
+        dist:
+          position: 2.0
+          form: 5.0
+    tracking:
+      dim:
+        z: 2
+        x: 5
+        x_aug: 7
+      std:
+        lidar:
+          x: 0.1
+          y: 0.1
+        acc: 0.20
+        yaw_rate: 0.314
+      lambda: 2.0
+      aging:
+        bad: 20
+      occlusion_factor: 2.0
+      min_dist_between_tracks: 0.5
+    track:
+      P_init:
+        x: 1.0
+        y: 1.0
+        v: 10.0
+        yaw: 10.0
+        yaw_rate: 1.0

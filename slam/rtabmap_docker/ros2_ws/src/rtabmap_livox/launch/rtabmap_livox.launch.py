@@ -21,7 +21,7 @@ def generate_launch_description():
 
         # Launch arguments
         DeclareLaunchArgument(
-            'use_sim_time', default_value='false',
+            'use_sim_time', default_value='true',
             description='Use simulation (Gazebo) clock if true'),
         
         DeclareLaunchArgument(
@@ -77,7 +77,7 @@ def generate_launch_description():
               'subscribe_depth':False,
               'subscribe_rgb':False,
               'subscribe_scan_cloud':True,
-              'approx_sync':False,
+              'approx_sync':True,
               'wait_for_transform':0.2,
               'use_sim_time':use_sim_time,
               # RTAB-Map's internal parameters are strings:
