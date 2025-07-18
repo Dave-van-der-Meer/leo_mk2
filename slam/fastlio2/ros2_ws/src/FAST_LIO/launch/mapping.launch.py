@@ -48,6 +48,8 @@ def generate_launch_description():
         executable='fastlio_mapping',
         parameters=[PathJoinSubstitution([config_path, config_file]),
                     {'use_sim_time': use_sim_time}],
+        remappings=[('/livox/lidar', '/livox/lidar'),  # Remap /livox/lidar to the second topic name
+                    ('/livox/imu', '/livox/imu')],     # Remap /livox/imu to the second topic name
         output='screen'
     )
  #   rviz_node = Node(
