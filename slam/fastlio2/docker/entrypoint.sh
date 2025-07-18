@@ -3,8 +3,8 @@
 set -e
 
 export ROS2_INSTALL_PATH="/opt/ros/humble"
-export ROS_NAMESPACE="leo05"
-export ROS_DOMAIN_ID=0
+export ROS_NAMESPACE=${ROS_NAMESPACE}
+export ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
 
 # Configure RMW
 export RWM_IMPLEMENTATION=rwm_fastrtps_cpp
