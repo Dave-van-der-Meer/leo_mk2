@@ -1,1 +1,2 @@
-docker stop local/fastlio2:humble
+docker stop fastlio2
+docker rm fastlio2
