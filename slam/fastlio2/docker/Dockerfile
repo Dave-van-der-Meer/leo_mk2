@@ -5,15 +5,22 @@ LABEL maintainer="Gabriel Garcia <gabriel.garcia@uni.lu>"
 
 # Install ROS2 packages
 RUN apt update && \
-apt install -y \
-ros-dev-tools \
-libpcl-dev \
-ros-${ROS_DISTRO}-pcl-ros \
-ros-${ROS_DISTRO}-rviz2 \
-python3-colcon-common-extensions && \
-rm -rf /var/lib/apt/lists/*
+    apt install -y \
+    ros-dev-tools \
+    libpcl-dev \
+    ros-${ROS_DISTRO}-pcl-ros \
+    ros-${ROS_DISTRO}-rviz2 \
+    python3-colcon-common-extensions && \
+    rm -rf /var/lib/apt/lists/*
 # last line to remove unecessary stuff
 # and reduce image size
+
+# Build Livox SDK inside the image
+WORKDIR /root
+COPY ./dependencies/Livox-SDK2/ /root/Livox-SDK2/
+WORKDIR /root/Livox-SDK2/build
+RUN cmake .. && make -j && make install
+WORKDIR /
 
 # Set up entrypoint to source ROS2 setup files
 COPY entrypoint.sh /

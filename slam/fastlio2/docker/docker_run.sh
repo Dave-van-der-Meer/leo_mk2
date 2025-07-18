@@ -23,9 +23,8 @@ docker run -it \
     --env ROS_DOMAIN_ID=${ROS_DOMAIN_ID} \
     --env LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib \
     --volume="${PWD}/../config:/root/config" \
-    --volume="${PWD}/../Livox-SDK2/:/root/Livox-SDK2" \
     --volume="${PWD}/../ros_ws/src/:/root/ros_ws/src/" \
     --volume="${PWD}/../driver/src/:/root/driver/src/" \
     --name fastlio2 \
     local/fastlio2:humble \
-    ros2 launch fast_lio mapping.launch.py config_file:=/root/config/mid360.yaml 
+    ros2 launch fast_lio mapping.launch.py config_file:=/root/config/mid360.yaml
