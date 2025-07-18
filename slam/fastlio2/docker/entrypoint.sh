@@ -22,7 +22,7 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib
 cd /root/ros2_ws/
 rosdep install --from-paths src --ignore-src -y
 colcon build --symlink-install
-source "/root/ros_ws/install/setup.bash"
+source "/root/ros2_ws/install/setup.bash"
 
 
 exec "$@"
