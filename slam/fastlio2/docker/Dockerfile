@@ -20,7 +20,12 @@ WORKDIR /root
 COPY ./dependencies/Livox-SDK2/ /root/Livox-SDK2/
 WORKDIR /root/Livox-SDK2/build
 RUN cmake .. && make -j && make install
-WORKDIR /
+
+# Build livox ros driver
+WORKDIR /root
+COPY ./dependencies/driver/ /root/driver/
+WORKDIR /root/driver/src/livox_ros_driver2/
+RUN /bin/bash -c "source /opt/ros/humble/setup.bash; bash build.sh humble"
 
 # Set up entrypoint to source ROS2 setup files
 COPY entrypoint.sh /

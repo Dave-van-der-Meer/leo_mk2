@@ -10,10 +10,7 @@ export ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
 export RWM_IMPLEMENTATION=rwm_fastrtps_cpp
 export FASTRTPS_DEFAULT_PROFILES_FILE=/root/config/fastrtps-profile.xml
 
-# Build livox ros driver
-cd /root/driver/src/livox_ros_driver2/
-source "${ROS2_INSTALL_PATH}/setup.bash"
-bash build.sh humble
+# Source livox ros driver
 source "/root/driver/install/setup.bash"
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib
 
